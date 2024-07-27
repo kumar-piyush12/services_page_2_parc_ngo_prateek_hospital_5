@@ -1,0 +1,49 @@
+.service1--heading {
+  font-weight: bolder;
+  font-size: 70px;
+}
+
+#service1--description {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.service1--background {
+  width: 100%;
+  height: 500px;
+  background-image: url('../../assets/logo.jpeg');
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -200px;
+  display: flex;
+  align-items:center;
+  opacity: 0.4;
+}
+
+.service1--background h1{
+  font-size: 6rem;
+  text-align: left;
+  z-index: 1;
+}
+
+#service1--img {
+  position: absolute;
+  width: 500px;
+  top: 30%;
+  right: 0;
+}
+
+.service1--description {
+  width: 97%;
+  margin: auto;
+  text-align: justify;
+}
+
+#service1--subheading {
+  width: 97%;
+  margin: 30px auto auto auto;
+  text-align: left;
+  text-decoration: underline 5px;
+  text-decoration-color: orange;
+}
